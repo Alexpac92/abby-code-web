@@ -3,7 +3,7 @@
 }
 
 .nav-link {
-    color: #949494;
+    color: #f1b128;
 }
 
 .nav-link:hover,
@@ -58,6 +58,13 @@ video {
     height: 100%;
 }
 
+.card-title{
+    color: #000;
+}
+.card-text {
+    color: #000;
+}
+
 .card-img {
     border-radius: 0;
     object-fit: cover;
@@ -70,12 +77,28 @@ video {
     align-content: center;
 }
 
-.fondo-amarillo::before {
+.fondo-azul::before {
     content: '';
     position: absolute;
     height: 100%;
     width: 100%;
-    background: rgba(242, 185, 13, 0.5);
+    background: rgba(111, 106, 255, 0.5);
+}
+
+.fondo-verde::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(170, 243, 130, 0.5);
+}
+
+.fondo-blanco::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(134, 133, 132, 0.5);
 }
 
 @media (max-width: 990px) {
