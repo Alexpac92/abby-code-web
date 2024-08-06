@@ -1,9 +1,17 @@
+
+html, body {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .logo_img {
     width: 60px;
 }
 
 .nav-link {
-    color: #f1b128;
+    color: orangered;
 }
 
 .nav-link:hover,
@@ -121,4 +129,75 @@ video {
         padding: 10px 15px;
         font-size: 18px;
     }
+    .recurso {
+        display: block;
+    }
 }
+
+.wavy {
+    height: 150px; 
+    overflow: hidden;
+    margin-top: -90px;
+}
+
+.reconocimiento-dos {
+    background-color: #000;
+}
+
+.elegante {
+    background-color: #f1b128; 
+}
+
+.btn-elegante {
+    background-color: #282828;
+    color: #fff;
+}
+
+.svg-elegant {
+    margin-top: -50px;
+}
+
+.profesional {
+    margin-top: -150px;
+}
+
+.btn-profesional {
+    background-color: #f1b128;
+}
+
+.recurso {
+    background-color: rgb(199, 201, 202);
+}
+
+.svg-recurso {
+    margin-top: -150px;
+}
+.img-recurso {
+    width:50%;
+    margin-left: 200px;
+}
+
+.recurso-text {
+    width: 40%;
+    border: 1px black solid;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: -90px;
+}
+
+/*footer*/
+
+footer {
+    padding-top: 50px;
+}
+
+.ubicacion {
+    color: #000;
+}
+
+iframe {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
