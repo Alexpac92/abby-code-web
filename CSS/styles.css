@@ -1,4 +1,9 @@
-
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Lora", serif;
+}
 html, body {
   font-family: "Lora", serif;
   font-optical-sizing: auto;
@@ -17,6 +22,10 @@ html, body {
 .nav-link:hover,
 .dropdown .nav-link.show {
     color: #f2b90d;
+}
+
+.dropdown-toggle{
+    color: orangered;
 }
 
 .w-85 {
@@ -137,7 +146,7 @@ video {
 .wavy {
     height: 150px; 
     overflow: hidden;
-    margin-top: -90px;
+    margin-top: -70px;
 }
 
 .reconocimiento-dos {
@@ -200,4 +209,29 @@ iframe {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+.footer-fin {
+    background-color:rgb(199, 201, 202);
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+strong {
+    padding: 10px;
+}
+.redes {
+    width: 50px;
+    padding: 5px;
+}
+
+.redes-s{
+    display: flex;
+    list-style: none;
+    justify-content: column;
+    margin-left: -30px;
+ }
+
 
