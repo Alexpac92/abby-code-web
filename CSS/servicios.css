@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Lora", serif;
+}
+html, body {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header-servicios {
+     background-color: #212529;
+}
+
+.titulo {
+    text-align: center;
+    padding: 50px;
+}
+
+.reconocimiento-dos {
+    display: flex;
+    background-color: #fff;
+    padding-top: 20px;
+}
+
+.texto {
+    padding: 50px;
+    font-size: 20px;
+}
+
+.imagen {
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+}
