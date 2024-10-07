@@ -380,7 +380,7 @@ iframe {
 .formulario__btn {
 	height: 45px;
 	line-height: 45px;
-	width: 30%;
+	width: 100%;
 	background: #f1b128;
 	color: black;
 	font-weight: bold;
@@ -496,7 +496,7 @@ strong {
 }
 
 .campo label {
-    color: #000;
+    color: #0075FF;
     font-weight: bold;
     margin-bottom: .5rem;
     display: block;
